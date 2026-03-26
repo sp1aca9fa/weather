@@ -1,4 +1,4 @@
-# weather
+# Weather
 
 A JavaScript web application that fetches and displays real-time weather data using the OpenWeatherMap API, based on user input or current location.
 
