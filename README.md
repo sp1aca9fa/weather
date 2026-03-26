@@ -1,4 +1,4 @@
-# Weather App
+# weather
 
 A JavaScript web application that fetches and displays real-time weather data using the OpenWeatherMap API, based on user input or current location.
 
@@ -14,6 +14,7 @@ A JavaScript web application that fetches and displays real-time weather data us
 
 - JavaScript (ES6)
 - HTML & CSS
+- Bootstrap 5
 - OpenWeatherMap API
 - Browser Geolocation API
 - Fetch API
@@ -37,42 +38,42 @@ This project requires an API key from OpenWeatherMap.
 
 To run the app locally:
 
-1. Create a `config.js` file in the root directory
+1. Create a `config.js` file inside the `lib/` directory
 2. Add your API key:
 
 ```js
 const apiKey = "your_api_key_here"
 ```
 
-3. Make sure config.js is loaded before your main JavaScript file in your HTML:
+3. The file is already referenced correctly in `index.html`:
 
-```HTML
-<script src="config.js"></script>
-<script src="index.js"></script>
+```html
+<script src="lib/config.js"></script>
+<script src="lib/index.js"></script>
 ```
 
 ## Important
 
-- The config.js file is ignored via .gitignore and is not included in this repository
-- A config.example.js file is provided as a reference for setup
+- The `lib/config.js` file is ignored via `.gitignore` and is not included in this repository
+- A `lib/config.example.js` file is provided as a reference for setup
 
 Note: Since this is a frontend-only application, API keys cannot be fully secured. In a production environment, API calls should be handled through a backend.
 
 ## Setup
 
 ```bash
-git clone <your-repo-url>
-cd weather-app
+git clone https://github.com/sp1aca9fa/weather.git
+cd weather
 ```
 
 Then run a local server:
 
 ```bash
-serve
+npx serve
 ```
 
 Open in your browser:
-http://localhost:8000
+http://localhost:3000
 
 ## Learnings
 
