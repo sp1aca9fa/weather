@@ -41,7 +41,7 @@ To run the app locally:
 2. Add your API key:
 
 ```js
-const API_KEY = "your_api_key_here"
+const apiKey = "your_api_key_here"
 ```
 
 3. Make sure config.js is loaded before your main JavaScript file in your HTML:
