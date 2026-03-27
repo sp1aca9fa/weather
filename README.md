@@ -86,4 +86,4 @@ http://localhost:3000
 
 ## Notes
 
-This project is a solution to a coding challenge completed during the Le Wagon bootcamp, focused on practicing API integration and front-end JavaScript fundamentals.
+This project is a solution to a Le Wagon bootcamp coding challenge, focused on practicing API integration and front-end JavaScript fundamentals.
